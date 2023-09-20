@@ -1,0 +1,6 @@
+﻿  EnhancedEncryption.cpp
+C:\Users\Dave\source\repos\EnhancedEncryptionActivity\EnhancedEncryptionActivity\EnhancedEncryption.cpp(21,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Dave\source\repos\EnhancedEncryptionActivity\EnhancedEncryptionActivity\EnhancedEncryption.cpp(25,162): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Dave\source\repos\EnhancedEncryptionActivity\EnhancedEncryptionActivity\EnhancedEncryption.cpp(43,48): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Dave\source\repos\EnhancedEncryptionActivity\EnhancedEncryptionActivity\EnhancedEncryption.cpp(47,168): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  EnhancedEncryptionActivity.vcxproj -> C:\Users\Dave\source\repos\EnhancedEncryptionActivity\x64\Debug\EnhancedEncryptionActivity.exe
