@@ -1,3 +1,37 @@
+/**
+ * File: EncryptionDecryption.cpp
+ * Author: David Allen
+ * Date: [Current Date]
+ * Version: 2.0 - updated header
+ *
+ * Description:
+ * This C++ program demonstrates encryption and decryption of a text file using the AES algorithm in CBC mode.
+ * The program uses OpenSSL's EVP library for encryption and decryption operations.
+ * It reads data from a file, encrypts it using a random initialization vector (IV) and a provided key, saves the encrypted data to another file,
+ * and then decrypts the encrypted data using the same key and IV and saves it to yet another file.
+ *
+ * File Details:
+ * - "EncryptionDecryption.cpp": Main file containing the program logic.
+ *
+ * Included Libraries:
+ * - <sstream>: String stream for parsing
+ * - <openssl/evp.h>: OpenSSL library for encryption and decryption
+ * - <openssl/rand.h>: OpenSSL library for random key and IV generation
+ *
+ * Functions:
+ * - std::string generate_random_key(int key_length): Generates a random encryption key.
+ * - std::string aes_encrypt(const std::string& source, const std::string& key, const std::string& iv): Performs AES encryption.
+ * - std::string aes_decrypt(const std::string& ciphertext, const std::string& key, const std::string& iv): Performs AES decryption.
+ * - std::string read_file(const std::string& filename): Reads data from a file.
+ * - void save_data_file(const std::string& filename, const std::string& student_name, const std::string& key, const std::string& data): Saves data to a file.
+ * - int main(): Main function containing program logic.
+ *
+ * Additional Notes:
+ * - The program uses OpenSSL EVP library for AES encryption and decryption operations.
+ * - A random IV is generated for encryption.
+ * - The input file is expected to have the student's name on the first line.
+ */
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
